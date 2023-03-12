@@ -6,9 +6,9 @@ int main()
     int hore1, min1, hore2, min2;
     設置四個整數型態，分別為開始小時、分鐘跟結束小時、分鐘。
     cin >> hore1;
-    cin >> min1;//開始時間  
+    cin >> min1; 
     cin >> hore2;
-    cin >> min2;//結束時間  
+    cin >> min2; 
 
     int time = (hore2 * 60 + min2) - (hore1 * 60 + min1); 
     將結束、開始小時加上60，在上個別的分鐘數，結束減開始，得到總時數。
